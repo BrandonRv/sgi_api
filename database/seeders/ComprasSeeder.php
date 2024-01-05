@@ -13,6 +13,6 @@ class ComprasSeeder extends Seeder
      */
     public function run(): void
     {
-        Compras::factory()->count(20)->create();
+        Compras::factory()->count(100)->create();
     }
 }
